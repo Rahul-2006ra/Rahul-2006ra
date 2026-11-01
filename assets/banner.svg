@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0e172a" />
+      <stop offset="100%" stop-color="#070b14" />
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#4facfe" />
+    </linearGradient>
+
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <!-- Card Glow -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.6" />
+    </linearGradient>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.7" stroke-opacity="0.6" />
+    </pattern>
+  </defs>
+
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif; font-weight: 800; font-size: 42px; fill: #ffffff; letter-spacing: -0.5px; }
+    .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif; font-weight: 600; font-size: 19px; fill: #38bdf8; letter-spacing: 0.2px; }
+    .tagline { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif; font-weight: 400; font-size: 15px; fill: #94a3b8; }
+    .badge-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif; font-weight: 600; font-size: 13px; fill: #e2e8f0; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace; }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="320" rx="16" fill="url(#bgGradient)" />
+  <rect width="1200" height="320" rx="16" fill="url(#grid)" />
+
+  <!-- Outer Border -->
+  <rect x="1.5" y="1.5" width="1197" height="317" rx="15" fill="none" stroke="url(#borderGrad)" stroke-width="1.5" />
+
+  <!-- Terminal Top Bar Motif -->
+  <g transform="translate(48, 42)">
+    <circle cx="0" cy="0" r="6" fill="#ef4444" />
+    <circle cx="18" cy="0" r="6" fill="#f59e0b" />
+    <circle cx="36" cy="0" r="6" fill="#10b981" />
+    <text x="60" y="4" class="mono" font-size="12" fill="#64748b">engineer://rahul-r/portfolio ~ zsh</text>
+  </g>
+
+  <!-- Left Content Block -->
+  <g transform="translate(48, 105)">
+    <!-- Name -->
+    <text x="0" y="32" class="title">RAHUL R</text>
+    
+    <!-- Role -->
+    <text x="0" y="68" class="subtitle">Software Developer · Information Science &amp; Engineering</text>
+    
+    <!-- Academic Affiliation -->
+    <text x="0" y="96" class="tagline">Acharya Institute of Technology · Department of Information Science</text>
+    
+    <!-- Engineering Philosophy -->
+    <text x="0" y="125" class="tagline" fill="#cbd5e1" font-style="italic">
+      "Building deterministic systems, computer vision controllers, and sub-millisecond graph algorithms."
+    </text>
+  </g>
+
+  <!-- Bottom Badges / Tech Highlights -->
+  <g transform="translate(48, 260)">
+    <!-- Badge 1: SIH 2026 -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="185" height="30" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <circle cx="15" cy="15" r="4" fill="#38bdf8" />
+      <text x="27" y="20" class="badge-text">SIH 2026 Innovator</text>
+    </g>
+
+    <!-- Badge 2: Systems & AI -->
+    <g transform="translate(197, 0)">
+      <rect x="0" y="0" width="180" height="30" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <circle cx="15" cy="15" r="4" fill="#10b981" />
+      <text x="27" y="20" class="badge-text">Full-Stack &amp; AI Systems</text>
+    </g>
+
+    <!-- Badge 3: Low-Latency -->
+    <g transform="translate(389, 0)">
+      <rect x="0" y="0" width="190" height="30" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <circle cx="15" cy="15" r="4" fill="#f59e0b" />
+      <text x="27" y="20" class="badge-text">Sub-2ms Pathfinding</text>
+    </g>
+
+    <!-- Badge 4: Test Rigor -->
+    <g transform="translate(591, 0)">
+      <rect x="0" y="0" width="190" height="30" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <circle cx="15" cy="15" r="4" fill="#a855f7" />
+      <text x="27" y="20" class="badge-text">300+ Automated Tests</text>
+    </g>
+  </g>
+
+  <!-- Right Decorative Geometric / System Architecture Visual -->
+  <g transform="translate(870, 48)">
+    <rect x="0" y="0" width="280" height="225" rx="12" fill="#0f172a" fill-opacity="0.8" stroke="#1e293b" stroke-width="1.5" />
+    
+    <!-- Code Window Title -->
+    <path d="M 0 12 C 0 5.373 5.373 0 12 0 L 268 0 C 274.627 0 280 5.373 280 12 L 280 32 L 0 32 Z" fill="#1e293b" />
+    <text x="16" y="21" class="mono" font-size="12" fill="#94a3b8">architecture_spec.py</text>
+    <circle cx="260" cy="16" r="3" fill="#10b981" />
+
+    <!-- Code Snippet -->
+    <text x="16" y="60" class="mono" font-size="12" fill="#38bdf8">class</text>
+    <text x="56" y="60" class="mono" font-size="12" fill="#f8fafc">SystemPipeline:</text>
+    
+    <text x="28" y="85" class="mono" font-size="11" fill="#64748b"># Deterministic validation</text>
+    
+    <text x="28" y="108" class="mono" font-size="12" fill="#f8fafc">facts = FactSheet.parse(feed)</text>
+    <text x="28" y="130" class="mono" font-size="12" fill="#f8fafc">guard = GroundingValidator()</text>
+    
+    <text x="28" y="155" class="mono" font-size="12" fill="#38bdf8">assert</text>
+    <text x="76" y="155" class="mono" font-size="12" fill="#f8fafc">guard.verify(facts) ==</text>
+    <text x="225" y="155" class="mono" font-size="12" fill="#10b981">True</text>
+    
+    <text x="28" y="180" class="mono" font-size="12" fill="#64748b">return Broadcast.dispatch()</text>
+
+    <!-- Mini status bar -->
+    <line x1="0" y1="195" x2="280" y2="195" stroke="#1e293b" stroke-width="1" />
+    <text x="16" y="212" class="mono" font-size="10" fill="#10b981">● ALL TESTS PASSING (308/308)</text>
+    <text x="220" y="212" class="mono" font-size="10" fill="#64748b">1.8ms</text>
+  </g>
+</svg>

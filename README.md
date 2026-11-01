@@ -20,9 +20,29 @@ Building deterministic, low-latency software systems — from disaster-response 
 
 ## 👨‍💻 About Me
 
-I am an Information Science & Engineering student dedicated to building end-to-end software systems rather than surface-level prototypes. My projects range from high-stakes disaster intelligence platforms (Smart India Hackathon 2026) and CCTV forensic video intelligence with low-level FAT16 disk parsing, to real-time event management architectures and sub-millisecond competitive AI bots.
+<table>
+  <tr>
+    <td width="220" align="center" valign="middle">
+      <img src="./assets/profile.jpg" alt="Rahul R - Software Developer & Information Science Engineering Student" width="180" style="border-radius: 12px; max-width: 100%; display: block;" />
+    </td>
+    <td valign="middle">
+      <p>
+        I am an Information Science &amp; Engineering student dedicated to building end-to-end software systems rather than surface-level prototypes. My projects range from high-stakes disaster intelligence platforms (Smart India Hackathon 2026) and CCTV forensic video intelligence with low-level FAT16 disk parsing, to real-time event management architectures and sub-millisecond competitive AI bots.
+      </p>
+      <p>
+        I approach engineering with a focus on <b>honesty, traceability, and operational rigor</b>: every critical claim is backed by deterministic verification pipelines, core components are covered by reproducible automated tests, and trade-offs are documented transparently. I also enjoy applied mathematics, particularly in turning complex algorithmic problems into elegant, low-latency routines.
+      </p>
+    </td>
+  </tr>
+</table>
 
-I approach engineering with a focus on **honesty, traceability, and operational rigor**: every critical claim is backed by deterministic verification pipelines, core components are covered by reproducible automated tests, and trade-offs are documented transparently. I also enjoy applied mathematics, particularly in turning complex algorithmic problems into elegant, low-latency routines.
+<br/>
+
+<div align="center">
+
+> ### *"Don't just learn how the world works. Build what makes it better."*
+
+</div>
 
 ---
 
@@ -193,6 +213,6 @@ I approach engineering with a focus on **honesty, traceability, and operational 
 
 <div align="center">
 
-*“Engineering is about verifiable claims, traceable logic, and systems built to endure real-world conditions.”*
+*“Don't just learn how the world works. Build what makes it better.”*
 
 </div>
